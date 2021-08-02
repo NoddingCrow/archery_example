@@ -1,0 +1,26 @@
+[
+    {
+        "type": "AMMO",
+        "id": "arrow_fire_hardened_fletched",
+        "copy-from": "arrow_fire_hardened_fletched",
+        "name": {
+            "str": "crude arrow"
+        },
+        "//": "copy-from requires you to specify a TYPE, ID, NAME, and COPY-FROM if nothing else. TYPE must match the original. If the ID is exactly the same as the item it is copying from, it will override it if loaded later. All the stuff like weight and length and color etc, since they're not specified here, will not be overwritten.",
+
+        "ammo_type": "arrow",
+        "damage": {
+            "damage_type": "stab",
+            "constant_damage_multiplier": 1.0,
+            "//": "and finally some bits we've changed, e.g. upping the damage mult (originally 0.75)"
+        },
+        "dispersion": 250,
+        "loudness": 0,
+        "count": 10,
+        "critical_multiplier": 10,
+        "effects": [
+            "RECOVER_2"
+        ]
+    }
+
+]

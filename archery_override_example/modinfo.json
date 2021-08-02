@@ -1,0 +1,18 @@
+[
+    {
+        "type": "MOD_INFO",
+        "ident": "crow_archery_override",
+        "name": "Archery Override Example",
+        "authors": [
+            "Crow"
+        ],
+        "maintainers": [
+            "-/-"
+        ],
+        "description": "An example mod for how to use copy-from to override aspects of systems, especially regarding archery.",
+        "category": "content",
+        "dependencies": [
+            "dda"
+        ]
+    }
+]
